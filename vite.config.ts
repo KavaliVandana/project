@@ -5,7 +5,6 @@ import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
   base: "/project/",
-  
   plugins: [
     react(),
     mode === "development" && componentTagger(),
